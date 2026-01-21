@@ -22,7 +22,7 @@ for i in range(2):
 actors = list(actors)
 file.close()
 
-rows = open("gra.json", "r")
+rows = open("graph.json", "r")
 data = json.load(rows)
 nodes = set()
 edges = []
@@ -81,3 +81,4 @@ for node, (x, y) in pos2.items():
                  va='center')
 
 plt.show()
+
