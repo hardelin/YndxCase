@@ -21,6 +21,7 @@ for row in reader:
     addToJson(row[1], row[0])
 file.close()
 
-file = open("gra.json", "w")
+file = open("graph.json", "w")
 json.dump(data, file)
 file.close()
+
